@@ -1,4 +1,4 @@
-gcc strbuf.c lua_cjson.c fpconv.c -O3 -s -o ../../bin/linux32/cjson.so -shared \
+gcc $CFLAGS strbuf.c lua_cjson.c fpconv.c -shared -o ../../bin/linux32/cjson.so \
 	-Wall -pedantic \
 	-I../lua \
 	-DDISABLE_INVALID_NUMBERS
