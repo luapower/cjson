@@ -2,7 +2,6 @@
 project:     cjson
 title:       lua-cjson
 tagline:     JSON support for Lua
-category:    Internet Formats
 ---
 
 ## `local json = require'cjson'`
