@@ -1,7 +1,7 @@
 ---
-project:     cjson
-title:       lua-cjson
-tagline:     JSON support for Lua
+project: cjson
+title:   lua-cjson
+tagline: JSON encoding & decoding
 ---
 
 ## `local json = require'cjson'`
