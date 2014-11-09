@@ -1,2 +1,2 @@
-gcc -arch x86_64 -O2 strbuf.c lua_cjson.c fpconv.c -shared -o ../../bin/osx64/clib/cjson.so -I../lua -undefined dynamic_lookup \
-	-Wall -pedantic -Wno-static-in-inline -DDISABLE_INVALID_NUMBERS
+P=osx64 D=cjson.so A=libcjson.a C="-arch x86_64" \
+	L="-arch x86_64 -undefined dynamic_lookup -Wno-static-in-inline" ./build.sh

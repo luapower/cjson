@@ -1,2 +1,1 @@
-gcc -O2 -s -static-libgcc -fPIC strbuf.c lua_cjson.c fpconv.c -shared -o ../../bin/linux64/clib/cjson.so -I../lua \
-	-Wall -pedantic -DDISABLE_INVALID_NUMBERS
+P=linux64 C=-fPIC L="-s -static-libgcc" D=libcjson.so A=libcjson.a ./build.sh
