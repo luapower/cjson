@@ -22,5 +22,11 @@
 !/bin/linux64/clib/cjson*
 !/bin/osx32/clib/cjson*
 !/bin/osx64/clib/cjson*
+!/bin/mingw32/cjson*
+!/bin/mingw64/cjson*
+!/bin/linux32/libcjson*
+!/bin/linux64/libcjson*
+!/bin/osx32/libcjson*
+!/bin/osx64/libcjson*
 !/csrc/cjson/
 !/csrc/cjson/**
