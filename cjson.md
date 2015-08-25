@@ -1,5 +1,4 @@
 ---
-project: cjson
 title:   lua-cjson
 tagline: JSON encoding & decoding
 ---
